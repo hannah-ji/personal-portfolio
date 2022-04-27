@@ -34,12 +34,14 @@ const Technologies = () =>  (
         <DiReact size="3rem"/>
         <br />
         <ListContainer>
-          <ListTitle>Frameworks</ListTitle>
+          <ListTitle>Frameworks and Libraries</ListTitle>
           <ListParagraph>
             React <br />
+            Firebase <br />
             Selenium <br />
             BeautifulSoup <br />
             Ant Design <br />
+            Pygame
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -50,6 +52,7 @@ const Technologies = () =>  (
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
             Visual Studio Code <br />
+            GitHub
           </ListParagraph>
         </ListContainer>
       </ListItem>

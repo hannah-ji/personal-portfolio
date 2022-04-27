@@ -9,13 +9,31 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'AI Assistant',
+    description:"Programmed a personal assistant that answers queries and integrated text-to-speech using the pyttsx3 library. Using Wikipedia API and Wolframalpha API, this personal assistant can answer questions such as computational and weather forecasts.",
+    image: '/images/assistant.png',
+    tags: ['Python'],
+    source: 'https://google.com',
+    visit: 'https://github.com/hannah-ji/personal-assistant',
+    id: 1,
+  },
+  {
+    title: 'Recipe Card App',
+    description:"Created an interactive recipe card database that allows people to add and edit recipes. ",
+    image: '/images/recipe-card.png',
+    tags: ['React', 'Javascript', 'HTML', 'CSS', 'Firebase'],
+    source: 'https://google.com',
+    visit: 'https://github.com/recipe-card-app',
+    id: 2,
+  },
+  {
     title: 'Music Bot',
     description:"Worked on a team for Hack the North to create a discord bot that plays music based on the key of the last song. Obtained song keys by using Selenium to web scrape song information and programmed the bot to download songs with FFmpeg, Discord.py, and Youtube-dl.",
     image: '/images/music.jpeg',
     tags: ['Python', 'Selenium'],
     source: 'https://google.com',
     visit: 'https://github.com/hannah-ji',
-    id: 1,
+    id: 3,
   },
   {
     title: 'Movie Picker',
@@ -24,8 +42,20 @@ export const projects = [
       tags: ['Python', 'BeautifulSoup'],
     source: 'https://github.com/hannah-ji/movie-picker',
     visit: 'https://github.com/hannah-ji/movie-picker',
-    id: 2,
+    id: 4,
   },
+
+  {
+    title: 'Wordle',
+    description: "Created a wordle clone using Python and Pygame. Test your vocabulary with this fun word game!",
+    image: '/images/wordle.png',
+    tags: ['Python', 'Pygame'],
+    source: 'https://google.com',
+    visit: 'https://github.com/hannah-ji/wordle',
+    id: 5,
+  },
+
+
   {
     title: 'FlipIt',
     description: "A card memory game where users need to flip cards to match 2 of the same card.",
@@ -33,7 +63,17 @@ export const projects = [
     tags: ['JavaScript', 'HTML', 'CSS'],
     source: 'https://google.com',
     visit: 'https://replit.com/@hannahji/card-game#index.html',
-    id: 3,
+    id: 6,
+  },
+
+  {
+    title: 'Reminder App',
+    description: "A program designed to remind users to stay healthy by notiying them to drink water and stand every hour.",
+    image: '/images/reminder.png',
+    tags: ['Python'],
+    source: 'https://google.com',
+    visit: 'https://github.com/hannah-ji/reminder-app',
+    id: 7,
   },
 ];
 
