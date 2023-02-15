@@ -18,7 +18,7 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Linkedin</LinkTitle>
-          <LinkItem href="https://www.linkedin.com/in/hannah-ji-a46k/">linkedin/in/hannahji</LinkItem>
+          <LinkItem href="https://www.linkedin.com/in/hannah-ji/">linkedin/in/hannah-ji</LinkItem>
         </LinkColumn>
       </LinkList>
     </FooterWrapper>

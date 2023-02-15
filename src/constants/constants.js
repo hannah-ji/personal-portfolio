@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Verbloom',
+    description: "Collaborated on a team to build a vocabulary game, leading the design and assisting in the frontend and backend development.",
+      image: '/images/verbloom.png',
+      tags: ['Svelte', 'Python'],
+    source: 'https://google.com',
+    visit: 'https://verbloom.app',
+    id: 0,
+  },
+  {
     title: 'Chatty',
     description: "Created a real-time chat application using React, which allows up to 25 users to message each other. Users can send messages, share photos, and create new group chats. Includes features such as read receipts and sound notifications.",
       image: '/images/chat_sc.png',
       tags: ['React', 'JavaScript', 'HTML', 'CSS', 'ChatEngine'],
     source: 'https://google.com',
     visit: 'https://github.com/hannah-ji/chat-app',
-    id: 0,
+    id: 1,
   },
   {
     title: 'AI Assistant',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['Python'],
     source: 'https://google.com',
     visit: 'https://github.com/hannah-ji/personal-assistant',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Recipe Card App',
@@ -24,7 +33,7 @@ export const projects = [
     tags: ['React', 'Javascript', 'HTML', 'CSS', 'Firebase'],
     source: 'https://google.com',
     visit: 'https://github.com/recipe-card-app',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Music Bot',
@@ -33,7 +42,7 @@ export const projects = [
     tags: ['Python', 'Selenium'],
     source: 'https://google.com',
     visit: 'https://github.com/hannah-ji',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Movie Picker',
@@ -42,7 +51,7 @@ export const projects = [
       tags: ['Python', 'BeautifulSoup'],
     source: 'https://github.com/hannah-ji/movie-picker',
     visit: 'https://github.com/hannah-ji/movie-picker',
-    id: 4,
+    id: 5,
   },
 
   {
@@ -52,7 +61,7 @@ export const projects = [
     tags: ['Python', 'Pygame'],
     source: 'https://google.com',
     visit: 'https://github.com/hannah-ji/wordle',
-    id: 5,
+    id: 6,
   },
 
 
@@ -63,7 +72,7 @@ export const projects = [
     tags: ['JavaScript', 'HTML', 'CSS'],
     source: 'https://google.com',
     visit: 'https://replit.com/@hannahji/card-game#index.html',
-    id: 6,
+    id: 7,
   },
 
   {
@@ -73,7 +82,7 @@ export const projects = [
     tags: ['Python'],
     source: 'https://google.com',
     visit: 'https://github.com/hannah-ji/reminder-app',
-    id: 7,
+    id: 8,
   },
 ];
 
@@ -83,4 +92,6 @@ export const TimeLineData = [
   { year: "Sept 2020", text: 'Started a chapter of Superposition, hosted events to inspire other girls to pursue STEM', },
   { year: "Sept 2021", text: 'Enrolled in the University of Waterloo as a computer science student', },
   { year: "Sept 2021", text: 'Attended my first Hackathon! (Hack the North)', },
+  { year: "Sept 2022", text: 'Worked at a start-up called Orbiseed as a Software Engineer Intern', },
+  { year: "Dec 2022", text: 'Worked at Datamuse as a Software Developer', },
 ];

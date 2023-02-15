@@ -21,7 +21,9 @@ const Technologies = () =>  (
           <ListParagraph>
             <>
               Python <br />
+              C <br />
               JavaScript <br />
+              TypesScript <br />
               HTML <br />
               CSS <br /> 
               Racket
@@ -38,6 +40,9 @@ const Technologies = () =>  (
           <ListParagraph>
             React <br />
             Firebase <br />
+            Pandas <br />
+            Apache Spark <br />
+            spaCy <br />
             Selenium <br />
             BeautifulSoup <br />
             Ant Design <br />

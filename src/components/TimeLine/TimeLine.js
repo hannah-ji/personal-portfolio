@@ -49,9 +49,11 @@ const Timeline = () => {
     <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm a 2A Computer Science student studying at the University of Waterloo. 
+        I'm a 2B Computer Science student studying at the University of Waterloo. 
         I'm an aspiring software developer and am excited and motivated to learn as much as I can. 
-        I'm currently looking for internships for Fall 2022. 
+        <br /> <br />
+        I have worked as a Software Engineer Intern at Orbiseed and as a Software Developer at Datamuse.
+        I'm currently looking for internships for Spring 2023! 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}> 
         <>
